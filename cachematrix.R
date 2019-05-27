@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## This function is to create a special "matrix" that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
 inv<-NULL
@@ -20,6 +21,7 @@ list(set=set,
 
 
 ## Write a short comment describing this function
+## This function is to compute the inverse of the special "matrix" returned by makeCacheMatrix above
 
 cacheSolve <- function(x, ...) {
   inv<-x$getInverse()
